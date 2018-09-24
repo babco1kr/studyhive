@@ -2,10 +2,12 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
+import { LogoBoxComponent } from './logo-box/logo-box.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    LogoBoxComponent
   ],
   imports: [
     BrowserModule
