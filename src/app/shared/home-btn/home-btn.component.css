@@ -1,0 +1,15 @@
+h3 {
+  font-family: "Rift Soft", sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(206, 206, 206);
+}

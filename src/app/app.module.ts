@@ -9,6 +9,10 @@ import { AppRoutingModule } from './app-routing.module';
 import { ErrorNotFoundComponent } from './error-not-found/error-not-found.component';
 import { ReturnBtnComponent } from './error-not-found/return-btn/return-btn.component';
 import { SignupBoxComponent } from './signup-box/signup-box.component';
+import { AuthBoxTitleComponent } from './shared/auth-box-title/auth-box-title.component';
+import { LoginBoxComponent } from './login-box/login-box.component';
+import { HomeBtnComponent } from './shared/home-btn/home-btn.component';
+
 
 @NgModule({
   declarations: [
@@ -18,7 +22,10 @@ import { SignupBoxComponent } from './signup-box/signup-box.component';
     SignupCtaComponent,
     ErrorNotFoundComponent,
     ReturnBtnComponent,
-    SignupBoxComponent
+    SignupBoxComponent,
+    AuthBoxTitleComponent,
+    LoginBoxComponent,
+    HomeBtnComponent
   ],
   imports: [
     BrowserModule,
