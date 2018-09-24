@@ -8,6 +8,7 @@ import { SignupCtaComponent } from './logo-box/signup-cta/signup-cta.component';
 import { AppRoutingModule } from './app-routing.module';
 import { ErrorNotFoundComponent } from './error-not-found/error-not-found.component';
 import { ReturnBtnComponent } from './error-not-found/return-btn/return-btn.component';
+import { SignupBoxComponent } from './signup-box/signup-box.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { ReturnBtnComponent } from './error-not-found/return-btn/return-btn.comp
     LoginCtaComponent,
     SignupCtaComponent,
     ErrorNotFoundComponent,
-    ReturnBtnComponent
+    ReturnBtnComponent,
+    SignupBoxComponent
   ],
   imports: [
     BrowserModule,

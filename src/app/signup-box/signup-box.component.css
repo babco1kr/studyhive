@@ -1,0 +1,19 @@
+.box {
+  background-color: #E8563D;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  height: 75vh;
+  width: 60vw;
+  transform: translate(-50%, -50%);
+  border-radius: 5px;
+}
+
+h3 {
+  font-family: "Rift Soft", sans-serif;
+  font-weight: bold;
+  font-size: 4rem;
+  text-align: center;
+  margin-top: 2rem;
+  color: white;
+}
