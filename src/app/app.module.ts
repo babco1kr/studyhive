@@ -8,6 +8,7 @@ import { SignupCtaComponent } from './logo-box/signup-cta/signup-cta.component';
 import { AppRoutingModule } from './app-routing.module';
 import { FormsModule } from '@angular/forms';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { HttpClientModule } from '@angular/common/http';
 import { ErrorNotFoundComponent } from './error-not-found/error-not-found.component';
 import { ReturnBtnComponent } from './error-not-found/return-btn/return-btn.component';
 import { SignupBoxComponent } from './signup-box/signup-box.component';
@@ -34,6 +35,7 @@ import { MatInputModule,
   ],
   imports: [
     BrowserModule,
+    HttpClientModule,
     AppRoutingModule,
     MatInputModule,
     MatCardModule,
