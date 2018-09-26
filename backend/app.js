@@ -9,7 +9,7 @@ const userRoutes = require('./routes/user');
 
 const app = express();
 
-mongoose.connect(`mongodb+srv://wntitus:${process.env.DB_PW}@cluster0-liwcc.mongodb.net/node-angular?retryWrites=true`, { useNewUrlParser: true})
+mongoose.connect(`mongodb+srv://wntitus:${process.env.DB_PW}@cluster0-liwcc.mongodb.net/studyhive?retryWrites=true`, { useNewUrlParser: true})
   .then(() => {
     console.log('Connected to MongoDB');
   })
