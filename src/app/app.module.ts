@@ -18,6 +18,7 @@ import { HomeBtnComponent } from './shared/home-btn/home-btn.component';
 import { MatInputModule,
   MatCardModule,
   MatButtonModule } from '@angular/material';
+import { DashboardComponent } from './dashboard/dashboard.component';
 
 
 @NgModule({
@@ -31,7 +32,8 @@ import { MatInputModule,
     SignupBoxComponent,
     AuthBoxTitleComponent,
     LoginBoxComponent,
-    HomeBtnComponent
+    HomeBtnComponent,
+    DashboardComponent
   ],
   imports: [
     BrowserModule,

@@ -4,11 +4,13 @@ import { ErrorNotFoundComponent } from './error-not-found/error-not-found.compon
 import { LogoBoxComponent } from './logo-box/logo-box.component';
 import { SignupBoxComponent } from './signup-box/signup-box.component';
 import { LoginBoxComponent } from './login-box/login-box.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
 
 const appRoutes: Routes = [
   { path: '', component: LogoBoxComponent},
   { path: 'signup', component: SignupBoxComponent},
   { path: 'login', component: LoginBoxComponent},
+  { path: 'dashboard', component: DashboardComponent},
   { path: '404', component: ErrorNotFoundComponent},
   { path: '**', redirectTo: '404' }
 ];
