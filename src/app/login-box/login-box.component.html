@@ -2,7 +2,7 @@
   <app-auth-box-title title="LOG IN"></app-auth-box-title>
   <form (submit)="onLogin(loginForm)" #loginForm="ngForm">
     <mat-form-field>
-      <input matInput name="email" ngModel type="email" placeholder="E-mail address" #emailInput="ngModel" require email>
+      <input matInput name="email" ngModel type="email" placeholder="E-mail address" #emailInput="ngModel" required email>
       <mat-error *ngIf="emailInput.invalid">Please enter a valid e-mail.</mat-error>
     </mat-form-field>
     <mat-form-field>
