@@ -20,7 +20,7 @@ import { MatInputModule,
   MatButtonModule } from '@angular/material';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { AuthGuard } from './shared/auth/auth.guard';
-import { DashHeadComponent } from './dash-head/dash-head.component';
+import { DashHeadComponent } from './dashboard/dash-head/dash-head.component';
 
 
 @NgModule({

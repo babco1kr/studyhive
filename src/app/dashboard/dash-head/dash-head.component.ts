@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DashHeadComponent implements OnInit {
 
+  userName = 'Wes';
+
   constructor() { }
 
   ngOnInit() {
