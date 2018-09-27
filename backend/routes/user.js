@@ -32,7 +32,7 @@ router.post('/login', (req, res, next) => {
     .then(user => {
       if (!user) {
         return res.status(401).json({
-          mesage: 'Auth failed!'
+          message: 'Auth failed!'
         })
       }
       fetchedUser = user;
