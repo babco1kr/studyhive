@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { NgForm } from '@angular/forms';
+import { AuthService } from '../shared/auth/auth.service';
 
 @Component({
   selector: 'app-login-box',
@@ -7,9 +9,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class LoginBoxComponent implements OnInit {
 
-  constructor() { }
+  constructor(public authService: AuthService) { }
 
   ngOnInit() {
+  }
+
+  onLogin(form: NgForm) {
+    if (form.invalid) {
+      return;
+    }
+
+    this.authService.login(form.value.email, form.value.password);
   }
 
 }
