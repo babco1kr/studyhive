@@ -1,0 +1,20 @@
+h3 {
+  text-align: center;
+
+}
+
+button {
+  border: none;
+  font-family: "Rift Soft", sans-serif;
+  font-size: 6rem;
+  font-weight: bold;
+  text-align: center;
+  margin: .5rem;
+  cursor: pointer;
+  background-color: transparent;
+  color: white;
+}
+
+button:hover {
+  color: rgb(206, 206, 206);
+}

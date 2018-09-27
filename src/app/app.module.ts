@@ -25,6 +25,7 @@ import { StudyBoxComponent } from './dashboard/study-box/study-box.component';
 import { StudyTopicComponent } from './dashboard/study-box/study-topic/study-topic.component';
 import { DashboardBtnComponent } from './logo-box/dashboard-btn/dashboard-btn.component';
 import { AddBtnComponent } from './dashboard/study-box/add-btn/add-btn.component';
+import { LogoutBtnComponent } from './logo-box/logout-btn/logout-btn.component';
 
 
 @NgModule({
@@ -44,7 +45,8 @@ import { AddBtnComponent } from './dashboard/study-box/add-btn/add-btn.component
     StudyBoxComponent,
     StudyTopicComponent,
     DashboardBtnComponent,
-    AddBtnComponent
+    AddBtnComponent,
+    LogoutBtnComponent
   ],
   imports: [
     BrowserModule,
