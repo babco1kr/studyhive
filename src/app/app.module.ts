@@ -24,6 +24,7 @@ import { DashHeadComponent } from './dashboard/dash-head/dash-head.component';
 import { StudyBoxComponent } from './dashboard/study-box/study-box.component';
 import { StudyTopicComponent } from './dashboard/study-box/study-topic/study-topic.component';
 import { DashboardBtnComponent } from './logo-box/dashboard-btn/dashboard-btn.component';
+import { AddBtnComponent } from './dashboard/study-box/add-btn/add-btn.component';
 
 
 @NgModule({
@@ -42,7 +43,8 @@ import { DashboardBtnComponent } from './logo-box/dashboard-btn/dashboard-btn.co
     DashHeadComponent,
     StudyBoxComponent,
     StudyTopicComponent,
-    DashboardBtnComponent
+    DashboardBtnComponent,
+    AddBtnComponent
   ],
   imports: [
     BrowserModule,
