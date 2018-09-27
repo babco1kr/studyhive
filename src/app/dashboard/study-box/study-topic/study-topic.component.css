@@ -1,0 +1,18 @@
+img {
+  cursor: pointer;
+  /* position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); */
+  transition: -webkit-filter .25s;
+  backface-visibility: hidden;
+  height: 250px;
+  width: 250px;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+img:hover {
+  -webkit-filter: drop-shadow(2px 2px 3px #222);
+  filter:         drop-shadow(2px 2px 3px #222);
+}
