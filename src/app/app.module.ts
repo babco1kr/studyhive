@@ -21,6 +21,8 @@ import { MatInputModule,
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { AuthGuard } from './shared/auth/auth.guard';
 import { DashHeadComponent } from './dashboard/dash-head/dash-head.component';
+import { StudyBoxComponent } from './dashboard/study-box/study-box.component';
+import { StudyTopicComponent } from './dashboard/study-box/study-topic/study-topic.component';
 
 
 @NgModule({
@@ -36,7 +38,9 @@ import { DashHeadComponent } from './dashboard/dash-head/dash-head.component';
     LoginBoxComponent,
     HomeBtnComponent,
     DashboardComponent,
-    DashHeadComponent
+    DashHeadComponent,
+    StudyBoxComponent,
+    StudyTopicComponent
   ],
   imports: [
     BrowserModule,
