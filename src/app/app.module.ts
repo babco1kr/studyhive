@@ -19,6 +19,8 @@ import { MatInputModule,
   MatCardModule,
   MatButtonModule } from '@angular/material';
 import { DashboardComponent } from './dashboard/dashboard.component';
+import { AuthGuard } from './shared/auth/auth.guard';
+import { DashHeadComponent } from './dash-head/dash-head.component';
 
 
 @NgModule({
@@ -33,7 +35,8 @@ import { DashboardComponent } from './dashboard/dashboard.component';
     AuthBoxTitleComponent,
     LoginBoxComponent,
     HomeBtnComponent,
-    DashboardComponent
+    DashboardComponent,
+    DashHeadComponent
   ],
   imports: [
     BrowserModule,
@@ -45,7 +48,7 @@ import { DashboardComponent } from './dashboard/dashboard.component';
     FormsModule,
     BrowserAnimationsModule
   ],
-  providers: [],
+  providers: [AuthGuard],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
