@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { AuthService } from '../../shared/auth/auth.service';
 
 @Component({
   selector: 'app-dash-head',
@@ -7,11 +8,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DashHeadComponent implements OnInit {
 
-  userName = 'Wes';
+  userName;
 
-  constructor() { }
+  constructor(private authService: AuthService) { }
 
   ngOnInit() {
+    this.userName = this.authService.getName();
   }
 
 }

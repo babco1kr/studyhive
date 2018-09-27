@@ -19,7 +19,7 @@ export class SignupBoxComponent implements OnInit {
       return;
     }
 
-    this.authService.createUser(form.value.email, form.value.password);
+    this.authService.createUser(form.value.email, form.value.password, form.value.firstName);
   }
 
 }
