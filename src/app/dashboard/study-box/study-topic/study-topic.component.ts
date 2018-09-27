@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-study-topic',
@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./study-topic.component.css']
 })
 export class StudyTopicComponent implements OnInit {
+  @Input() topicImage = '';
 
   constructor() { }
 
