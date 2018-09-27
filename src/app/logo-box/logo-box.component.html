@@ -1,3 +1,4 @@
 <h1>STUDYHIVE</h1>
-<app-login-cta ></app-login-cta>
-<app-signup-cta></app-signup-cta>
+<app-login-cta *ngIf="!isAuthenticated"></app-login-cta>
+<app-signup-cta *ngIf="!isAuthenticated"></app-signup-cta>
+<app-dashboard-btn *ngIf="isAuthenticated"></app-dashboard-btn>

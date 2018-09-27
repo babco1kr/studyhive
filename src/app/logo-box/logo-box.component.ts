@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { AuthService } from '../shared/auth/auth.service';
 
 @Component({
   selector: 'app-logo-box',
@@ -7,9 +8,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class LogoBoxComponent implements OnInit {
 
-  constructor() { }
+  isAuthenticated = false;
+
+  constructor(private authService: AuthService) { }
 
   ngOnInit() {
+    this.isAuthenticated = this.authService.getIsAuth();
   }
 
 }

@@ -23,6 +23,7 @@ import { AuthGuard } from './shared/auth/auth.guard';
 import { DashHeadComponent } from './dashboard/dash-head/dash-head.component';
 import { StudyBoxComponent } from './dashboard/study-box/study-box.component';
 import { StudyTopicComponent } from './dashboard/study-box/study-topic/study-topic.component';
+import { DashboardBtnComponent } from './logo-box/dashboard-btn/dashboard-btn.component';
 
 
 @NgModule({
@@ -40,7 +41,8 @@ import { StudyTopicComponent } from './dashboard/study-box/study-topic/study-top
     DashboardComponent,
     DashHeadComponent,
     StudyBoxComponent,
-    StudyTopicComponent
+    StudyTopicComponent,
+    DashboardBtnComponent
   ],
   imports: [
     BrowserModule,
